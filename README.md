@@ -1,5 +1,5 @@
-# get_audio_source_mp3
-get a js audio source for mp3
+# set_audio_source_mp3
+set a js audio source for mp3
 
 Scott Starker - 10/14/2021
 
@@ -27,4 +27,4 @@ And, therefore plays the mp3 file.
 
 The assumption is the audio "source" have "id"s of "audio1", "audio2", "audio3", "audio4", and "audio5" maximum.
 
-The HTML files need to have ```<script type='text/javascript' src='get_audio_source_mp3.js' defer></script>```
+The HTML files need to have ```<script type='text/javascript' src='set_audio_source_mp3.js' defer></script>```
