@@ -3,7 +3,7 @@ set a js audio source for mp3
 
 Scott Starker - 10/14/2021
 
-The js file in the user browser must have sessionStorage.setItem("mp3", "mp3") (e.g. in ScriptureEarg.org website).
+The js file in the user browser must have sessionStorage.setItem("mp3", "mp3") (e.g. from ScriptureEarg.org website).
 
 If sessionStorage.setItem("mp3", "mp3") then remove the all of the other audio "source"s src.
 
