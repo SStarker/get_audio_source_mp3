@@ -1,4 +1,4 @@
-# set a js audio source for mp3
+# set an HTML audio source for mp3 in js
 
 Scott Starker - 10/14/2021
 
