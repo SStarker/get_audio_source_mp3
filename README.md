@@ -1,5 +1,4 @@
-# set_audio_source_mp3
-set a js audio source for mp3
+# set a js audio source for mp3
 
 Scott Starker - 10/14/2021
 
