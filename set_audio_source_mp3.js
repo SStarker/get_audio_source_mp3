@@ -2,7 +2,7 @@
 // sessionStorage.setItem("mp3", "mp3") in ScriptureEarg.org website
 // if sessionStorage.setItem("mp3", "mp3") then remove the all of the other audio "source"s src
 // assume the audio "source" have "id"s of "audio1", "audio2", "audio3", "audio4", and "audio5" maximum
-// The HTML file must have <script type='text/javascript' src='get_audio_source_mp3.js' defer></script>
+// The HTML file must have <script type='text/javascript' src='set_audio_source_mp3.js' defer></script>
 let srcmp3 = "";
 if (typeof(Storage) !== "undefined") { // sessionStorage is found
     if (srcmp3 = sessionStorage.getItem("mp3")) { // if "mp3" is found from the users browser and assign it to srcmp3
