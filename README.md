@@ -35,7 +35,7 @@ The HTML files need to have ```<script type='text/javascript' src='js/set_audio_
 4. Click on either "Normal" or "Just MP3".
 5. Click on "Ok".
 6. A new window will come up.
-7. It will play either the "ogg" r "MP3" depending on which you clicked on in the previous window.
+7. It will play either the "ogg" or "MP3" depending on which you clicked on in the previous window.
 8. Clivk of "Repeat" and it will play it again.
 9. Once you are done, click on "Close".
 10. In the first window, click the other one.
