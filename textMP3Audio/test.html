@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Audio sources test</title>
+</head>
+
+<body>
+    <h1 style="text-align: center; color: darkred; ">Main Test Window</h1>
+    <div id="normal">
+        <input type="radio" name="audio" value="Normal" checked onclick="MP3_off()" /> Normal
+
+    </div>
+    <div id="mp3">
+        <input type="radio" name="audio" value="MP3" onclick="MP3_on()" /> Just MP3
+    </div>
+    <div id="submit" style="margin-top: 25px; margin-left: 30px; ">
+        <input type="button" value="Ok" onclick="window.open('audio.html', 'audio test') " />
+    </div>
+    <script>
+        // sessionStorage.setItem("mp3", "mp3"); or // sessionStorage.setItem("mp3 ", "");
+        // data1 = sessionStorage.getItem("mp3");
+        // document.write(sessionStorage.getItem("mp3"));
+        // sessionStorage.removeItem("mp3");    // REMOVING saved data from sessionStorage:
+        // sessionStorage.clear();  // REMOVING ALL saved data from sessionStorage:
+        function MP3_on() { // fully loaded but without waiting for stylesheets and images to finish loading
+            sessionStorage.setItem("mp3", "mp3");
+        }
+
+        function MP3_off() { // fully loaded but without waiting for stylesheets and images to finish loading
+            sessionStorage.setItem("mp3", "");
+        }
+    </script>
+</body>
+
+</html>
