@@ -26,4 +26,18 @@ And, therefore plays the mp3 file.
 
 The assumption is the audio "source" have "id"s of "audio1", "audio2", "audio3", "audio4", and "audio5" maximum.
 
-The HTML files need to have ```<script type='text/javascript' src='set_audio_source_mp3.js' defer></script>```
+The HTML files need to have ```<script type='text/javascript' src='js/set_audio_source_mp3.js' defer></script>```
+
+# Test
+1. Copy the folder called "Test" to your drive.
+2. In your drive, go to the folder called "Test".
+3. In the browser run "test.html".
+4. Click on either "Normal" or "Just MP3".
+5. Click on "Ok".
+6. A new window will come up.
+7. It will play either the "ogg" r "MP3" depending on which you clicked on in the previous window.
+8. Clivk of "Repeat" and it will play it again.
+9. Once you are done, click on "Close".
+10. In the first window, click the other one.
+11. Click on "Ok".
+12. Go back to step 6.
