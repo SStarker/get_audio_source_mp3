@@ -29,8 +29,8 @@ The assumption is the audio "source" have "id"s of "audio1", "audio2", "audio3",
 The HTML files need to have ```<script type='text/javascript' src='js/set_audio_source_mp3.js' defer></script>```
 
 # Test
-1. Copy the folder called "TestMP3Audio" to your drive.
-2. In your drive, go to the folder called "TestMP3Audio".
+1. Copy the folder called "testMP3Audio" to your drive.
+2. In your drive, go to the folder called "testMP3Audio".
 3. In the browser run "test.html".
 4. Click on either "Normal" or "Just MP3".
 5. Click on "Ok".
